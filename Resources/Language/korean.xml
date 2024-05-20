@@ -1,0 +1,383 @@
+<!-- Template updated for 1.59. Use notepad++ compare plugin or Code Compare to compare changes -->
+<!-- If something does not translate, check the log. Create new line using [(new-line)]. Do not modify the "name" values. Otherwise it will not load xml at all -->
+<!-- Shorten the words or sentences as possible -->
+<!-- Some strings has been removed as they were no longer need and a part of clean up -->
+<!-- Feel free to credit your name or username here -->
+<Language name="APK Easy Tool">
+	<!-- Credit your name here if you want. It will be shown in About page -->	
+	<Localized name="translated_by_lbl" value="지역화: Unique (Uniblog.tistory.com)"/> <!-- Bold text -->
+	<Localized name="translation_credit_lbl" value=""/> <!-- Normal text will be shown below the bold text -->
+	<!-- ================== -->
+	<!-- Global - These strings are used anywhere -->
+	<!-- ================== -->
+	<Localized name="decompile" value="디컴파일"/>
+	<Localized name="compile" value="컴파일"/>
+	<Localized name="sign" value="서명"/>
+	<Localized name="framework" value="Framework"/>
+	<Localized name="change_btn" value="변경..."/>
+	<Localized name="select_btn" value="찾아보기..."/>
+	<Localized name="cancel_esc" value="(취소하려면 &lt;Esc&gt; 키를 누르십시오)"/>
+	<Localized name="ok_btn" value="확인"/>
+	<Localized name="general" value="일반"/>
+	<Localized name="dec_force_del_dir_chk" value="대상 폴더 강제 삭제"/>
+	<Localized name="dec_force_del_dir_tip" value="대상 폴더 강제 삭제. 이미 존재하는 폴더로 디코딩할 때 사용"/>
+	<Localized name="com_keep_orig_sig_chk" value="원본 서명 유지"/>
+	<Localized name="com_keep_orig_sig_tip" value="원본 AndroidManifest.xml 및 META-INF를 복사합니다. [(new-line)] https://ibotpeaches.github.io/Apktool/에서 자세한 정보보기"/> <!-- URL is hardcoded -->
+	<Localized name="com_skip_changes_chk" value="변경 내용 검색 건너뛰기"/>
+	<Localized name="com_skip_changes_tip" value="변경사항 검색을 건너뛰고 모든 파일을 작성합니다."/>
+	<Localized name="resource_missing_notice" value="Apktool or Resources folder are missing. Make sure they are placed beside apkeasytool.exe"/>
+	<Localized name="com_use_appt2_tip" value="실험적인 aapt2 바이너리를 사용하도록 apktool을 업그레이드합니다."/>
+	<Localized name="resource_missing_notice" value="Apktool 또는 리소스 폴더가 없습니다. apkeasytool.exe 옆에 있는지 확인하십시오."/>
+	<Localized name="instance_title" value="인스턴스"/>
+	<Localized name="java_not_installed_notice" value="Java가 설치되지 않았습니다. 옵션에서 Java SE를 설치하거나 Java 실행 가능 경로를 선택하십시오"/>
+	<Localized name="apktool_not_sel_mbox" value="Pktool.jar 버전이 선택되지 않았습니다. 옵션으로 이동하여 선택하십시오."/>
+	
+	<!-- ================== -->
+	<!-- Status -->
+	<!-- ================== -->
+	<Localized name="read_apk" value="APK를 읽는 중..."/>
+	<Localized name="done" value="완료"/>
+	<Localized name="error_read_apk" value="APK 파일을 읽는 동안 오류가 발생했습니다"/>
+	<Localized name="apk_not_sel_mbox" value="APK 파일이 선택되지 않았습니다. APK 파일을 선택하십시오."/>
+	<Localized name="chk_for_update" value="업데이트를 확인하는 중..."/>
+	<Localized name="no_update" value="No update available"/>
+	
+	<!-- ================== -->
+	<!-- Main Tab -->
+	<!-- ================== -->
+	<!-- -->
+	<Localized name="tab_name_main" value="메인"/>
+	<Localized name="sel_dec_folder" value="디컴파일된 APK 선택..."/>
+	<Localized name="sel_dec_folder_tip" value="디컴파일된 APK 폴더 선택"/>
+    <Localized name="file_folder_lbl" value="파일 / 폴더:"/>
+    <Localized name="decompile_name_lbl" value="디컴파일 이름:"/>
+	<Localized name="compile_name_lbl" value="컴파일 이름:"/>
+	<Localized name="tip_drop_apk_lbl" value="팁 : 여기에 APK / JAR / Decompiled 폴더를 드롭하세요. 공백, 기호 및 특수 문자는 부분적으로 지원됩니다 [(새 줄)] 디렉토리 오류가 발생하면 파일 이름에서 제거하십시오"/>
+	<Localized name="decode_api_lvl_lbl" value="디코드 API 레벨:"/>
+	<Localized name="rebuild_api_lvl_lbl" value="리빌드 API 레벨:"/>
+	<Localized name="api_tip" value="생성할 파일의 api 레벨 숫자 (예: ICS의 경우 14)."/>
+	
+	<!-- Buttons -->
+	<Localized name="sign_apk_btn" value="APK 서명"/>
+	<Localized name="zipalign__btn" value="ZipAlign"/>
+	<Localized name="extract_apk_btn" value="APK 추출"/>
+	<Localized name="zip_apk_btn" value="APK 압축"/>
+	<Localized name="install_apk_btn" value="APK 설치"/>
+	<Localized name="check_align_btn" value="정렬 확인"/>
+	<Localized name="dec_apk_dir_btn" value="디컴파일 폴더"/>
+	<Localized name="com_apk_dir_btn" value="컴파일 폴더"/>
+	<Localized name="ext_apk_dir_btn" value="추출 폴더"/>
+	<Localized name="zip_apk_dir_btn" value="압축 폴더"/>
+	
+	<!-- Quick Options -->
+	<Localized name="fw_use_tag_lbl" value="Framework 태그:"/>
+	<Localized name="fw_use_tag_tip" value="태그 Framework"/>
+	
+	<!-- Info -->
+	<Localized name="package_name_lbl" value="패키지 이름:"/>
+	<Localized name="launch_activity_lbl" value="시작 작업:"/>
+	<Localized name="min_sdk_ver_lbl" value="최소 SDK 버전:"/>
+	<Localized name="target_sdk_ver_lbl" value="대상 SDK 버전:"/>
+	<Localized name="version_name_lbl" value="버전 이름:"/>
+	<Localized name="version_code_lbl" value="버전 코드:"/>
+	<Localized name="signature_scheme_lbl" value="서명 체계:"/>
+	<Localized name="ps_link" value="Play 스토어에서 받기"/>
+	<Localized name="apkcombo_link" value="Apkcombo에서 받기"/>
+	<Localized name="apkpure_link" value="Apkpure에서 받기"/>
+	<Localized name="full_apk_info_btn" value="전체 APK 정보"/>
+	
+	<!-- In code -->
+	<Localized name="not_a_dec_notice" value="디컴파일된 APK 폴더가 아닙니다"/>
+	<Localized name="sel_files_diag" value="APK 또는 JAR 파일 선택"/>
+	<Localized name="invalid_notice" value="파일 또는 폴더가 없습니다"/>
+	<Localized name="pak_id_copy_notice" value="패키지 이름이 클립 보드에 복사되었습니다."/>
+	<Localized name="launch_copy_notice" value="시작 작업이 클립 보드에 복사되었습니다."/>
+	<Localized name="sel_dec_diag" value="작업할 디컴파일된 폴더 프로젝트를 선택하십시오"/>
+	<Localized name="not_a_dec_2_notice" value="선택한 폴더는 APK의 디컴파일된 폴더가 아닙니다"/>´
+	<Localized name="dir_dec_not_set_notice" value="디컴파일 폴더가 설정되지 않았습니다."/>
+	<Localized name="plz_name_dec_mbox" value="디컴파일할 파일 이름을 입력하십시오."/>
+	<Localized name="dec_again_mbox" value="다시 디컴파일하시겠습니까?"/>
+	<Localized name="apk_dec_not_set_mbox" value="디컴파일 폴더가 설정되지 않았습니다"/>
+	<Localized name="apk_dex_not_sel_mbox" value="APK 파일 또는 디컴파일 폴더를 선택하지 않았습니다."/>
+	<Localized name="enter_name_com_mbox" value="컴파일할 파일 이름을 입력하십시오"/>
+	<Localized name="dec_apk_first_mbox" value="먼저 APK 파일을 디컴파일"/>
+	<Localized name="com_apk_first_mbox" value="먼저 APK 파일을 컴파일"/>
+	<Localized name="adb_busy_mbox" value="ADB가 사용 중입니다. ADB를 다시 시작하시겠습니까?"/>
+	<Localized name="zipalign_first_mbox" value="먼저 APK 파일을 Zipalign"/>
+	<Localized name="ext_apk_first_mbox" value="먼저 APK를 추출하십시오."/>
+	<Localized name="cancel_mbox" value="취소하면 exe 프로세스가 종료됩니다. 정말 취소 하시겠습니까?"/>
+	<!-- ================== -->
+	<!-- Smali/baksmali tab -->
+	<!-- ================== -->
+	<Localized name="smali_bak_tab" value="Smali/baksmali"/>
+	<Localized name="baksmali_lbl" value="Baksmali"/>
+	<Localized name="dex_files_lbl" value="Dex/odex/oat 파일:"/>
+	<Localized name="bak_out_dir_lbl" value="Baksmali 출력 폴더:"/>
+	<Localized name="name_dec_smali_lbl" value="디컴파일된 smali의 이름:"/>
+	<Localized name="deodex_lbl" value="Deodex"/>
+	<Localized name="smali_lbl" value="Smali"/>
+	<Localized name="dis_dir_lbl" value="해제된 smali 폴더:"/>
+	<Localized name="smali_out_dir_lbl" value="Smali 출력 폴더:"/>
+	<Localized name="name_of_com_smali_lbl" value="컴파일된 smali의 이름:"/>
+	<Localized name="dec_smali_btn" value="smali 디컴파일"/>
+	<Localized name="com_smali_btn" value="smali 컴파일"/>
+	
+	<!-- In code -->
+	<Localized name="sel_dex_odex_diag" value="dex 또는 odex 파일 선택"/>
+	<Localized name="sel_dis_dir_diag" value="해제한 smali 폴더를 저장할 폴더 선택"/>
+	<Localized name="dex_not_sel_mbox" value="Dex/odex 파일이 선택되지 않았습니다."/>
+	<Localized name="dir_not_set_mbox" value="폴더가 설정되지 않았습니다."/>
+	<Localized name="plz_enter_dis_name_mbox" value="디컴파일한 smali 이름을 입력하십시오"/>
+	<Localized name="sel_dis_folder_diag" value="해제한 smali 폴더를 선택합니다"/>
+	<Localized name="sel_sma_dir_diag" value="어셈블한 smali을 저장할 폴더를 선택하십시오"/>
+	<Localized name="plz_enter_sma_name_mbox" value="컴파일된 smali 이름을 입력하십시오"/>
+
+	<!-- ================== -->
+	<!-- Log output tab -->
+	<!-- ================== -->
+	<Localized name="log_output_tab" value="로그 출력 &gt;&gt;"/>
+	<Localized name="enable_log_out_check" value="로그 출력 사용"/>
+	<Localized name="open_log_btn" value="로그 폴더 열기"/>
+	<Localized name="clr_this_log_btn" value="로그 지우기"/>
+	
+	<!-- In code -->
+	<Localized name="clear_logs_mbox" value="모든 로그를 지우시겠습니까?"/>
+	<Localized name="clear_logs_mbox_err" value="모든 로그를 지우는 동안 오류가 발생했습니다"/>
+	<Localized name="please_read_faq" value="Appktool 문제에 대한 자세한 내용을 보려면 여기를 클릭하십시오"/>
+	<Localized name="log_dir_mbox_err" value="로그 폴더를 찾을 수 없습니다"/>
+	
+	<!-- ================== -->
+	<!-- Framework tab -->
+	<!-- ================== -->
+	<Localized name="framework_file_lbl" value="Framework 파일:"/>
+	<Localized name="install_dir_lbl" value="설치 폴더:"/>
+	<Localized name="tag_fw_lbl" value="태그 Framework:"/>
+	<Localized name="fw_dir_lbl" value="Framework 폴더:"/>
+	<Localized name="fw_dir_note_lbl" value="디컴파일 및 컴파일을 위해 폴더에 있는 Framework 파일을 사용합니다. 폴더가 비어 있는 경우, [(new-line)] %appdata%/local/apktool/framework 또는 %appdata%/local/temp 3에 있는 apk를 사용합니다"/>
+	<Localized name="fw_dir_note2_lbl" value="대부분의 경우 기기의 /system/framework에있는 모든 apk는[(new-line)]프레임 워크 파일이 됩니다. 일부 장치에서는 [(new-line)] /data/system-framework에 있고 /system/app 또는 /system /priv-app에 영리하게 숨겨져있을 수도 있습니다. 일반적으로 'resources', 'res'또는 'framework'의 [(new-line)] 이름으로 명명됩니다. "/>
+	<Localized name="fw_dir_note3_lbl" value="참고: Apktool은 일단 설치된 프레임 워크를 제어 할 수 없지만 이러한 파일을 자유롭게 관리 할 수 ​​있습니다."/>
+	<Localized name="sel_fw_btn" value="Framework 선택"/>
+	<Localized name="install_fw_btn" value="FW APK 설치"/>
+	<Localized name="open_fw_dir_btn" value="FW 폴더 열기"/>
+	<Localized name="clr_fw_btn" value="FW 캐시 지우기"/>
+	
+	<!-- In code -->
+	<Localized name="and_fw_pack_lbl" value="안드로이드 프레임워크 패키지"/>
+	<Localized name="sel_fw_diag" value="Framework APK 파일 선택"/>
+	<Localized name="fw_not_sel_mbox" value="Framework가 선택되지 않았습니다. Framework를 선택하십시오."/>
+	<Localized name="sel_fw_folder_diag" value="Framework APK를 저장할 폴더 선택"/>
+	<Localized name="sel_fw_stored_diag" value="Framework APK를 저장한 폴더 선택"/>
+
+	<!-- ================== -->
+	<!-- Options tab -->
+	<!-- ================== -->
+	<Localized name="com_use_appt2_chk" value="aapt2 사용"/>
+
+	<!-- General child tab -->
+	<Localized name="options_tab" value="옵션"/>
+	<Localized name="apktool_ver_lbl" value="Apktool 버전:"/>
+	<Localized name="apktool_ver_tip" value="버전 전환 후 프레임워크 지우기 잊지 마십시오"/>
+	<Localized name="comp_lvl_lbl" value="압축 수준:"/>
+	<Localized name="java_heap_lbl" value="Java 힙 크기 설정:"/>
+	<Localized name="java_heap_tip" value="메모리 부족 오류 (java.lang.OutOfMemoryError)가 발생하면 힙 크기를 늘리십시오"/>
+	<Localized name="chk_update_chk" value="업데이트 확인"/>
+	<Localized name="rem_win_pos_chk" value="창 위치 기억"/>
+	<Localized name="rem_win_pos_tip" value="종료시 창 위치를 기억합니다. 창이 화면 밖에 있으면 config.xml을 삭제하십시오"/>
+	<Localized name="ena_tips_chk" value="도구 팁 사용"/>
+	<Localized name="ena_tips_tip" value="도구 팁이 귀찮은 경우 비활성화"/>
+	<Localized name="dis_dropdown_his_chk" value="드롭다운 기록 사용 안 함"/>
+	<Localized name="clr_his_btn" value="기록 지우기"/>
+	<Localized name="con_menu_lbl" value="컨텍스트 메뉴 통합"/>
+	<Localized name="ins_lbl" value="설치"/>
+	<Localized name="unins_lbl" value="제거"/>
+	<Localized name="task_bar_chk" value="작업 표시줄 아이콘에 진행률 표시/플래시"/>
+	
+	<Localized name="restart_btn" value="재시작"/>
+	<Localized name="lang_lbl" value="언어:"/>
+	<Localized name="use_java_por_lbl" value="실행 가능한 portable Java 사용"/>
+	<Localized name="mb_lbl" value="MB"/>
+	<Localized name="dir_lbl" value="폴더"/>
+	<Localized name="dec_dir_lbl" value="디컴파일된 APK 폴더:"/>
+	<Localized name="com_dir_lbl" value="컴파일된 APK 폴더:"/>
+	<Localized name="ext_dir_lbl" value="APK 추출 폴더:"/>
+	<Localized name="zip_dir_lbl" value="압축된 APK 폴더:"/>
+	<Localized name="setup_all_dir_btn" value="모든 폴더 설정"/>
+	<Localized name="other_lbl" value="기타"/>
+	<Localized name="reset_btn" value="기본값으로 초기화"/>
+	<Localized name="temp_folder_btn" value="Temp 폴더 보기"/>
+	<Localized name="reset_note_lbl" value="작업 폴더가 삭제되지 않습니다."/>
+	
+	<!-- Apktool child tab -->
+	<Localized name="dont_write_info_lbl" value="디버그 정보를 작성하지 않음"/>
+	<Localized name="dont_write_info_tip" value="baksmali가 디버그 정보 (.local, .param, .line 등)를 작성하지 못하도록합니다. [(new-line)] [(new-line)] 다른 버전의 동일한 APK에서 smali를 비교하는 경우 사용하는 것이 좋습니다. [(new-line)] 버전에 따라 줄 번호와 디버그가 변경되어 DIFF 보고서가 어려워 질 수 있습니다."/>
+	<Localized name="dont_dec_res_lbl" value="resources.arsc를 디코딩하지 않음"/>
+	<Localized name="dont_dec_res_tip" value="이것은 리소스의 디컴파일을 방지합니다. 이렇게하면 디코드없이 resources.arsc가 그대로 유지됩니다. [(new-line)] Java (smali)만 편집하는 경우 더 빠른 디컴파일 및 재빌드를 위해 권장되는 조치입니다"/>
+	<Localized name="dont_dec_dex_lbl" value="classes.dex를 디코딩하지 않음"/>
+	<Localized name="dont_dec_dex_tip" value="이렇게하면 dex 파일의 디스어셈블리를 방지 할 수 있습니다.[(new-line)] apk dex 파일을 유지하고 빌드 중에 간단히 이동합니다.[(new-line)] 리소스만 편집하는 경우[(new-line)]더 빠른 분해 및 조립을 위해 권장되는 작업입니다"/>
+	<Localized name="dont_copy_unk_asset_lbl" value="알 수 없는 자산 파일의 디코딩/복사를 방지"/>
+	<Localized name="keep_file_orig_lbl" value="파일을 가능한 원본에 가깝게 유지"/>
+	<Localized name="keep_file_orig_tip" value="가능한 원본과 가장 근접한 파일을 일치시키지만 다시 빌드할 수는 없습니다."/>
+	<Localized name="keep_bro_res_lbl" value="깨진 res 유지"/>
+	<Localized name="only_dis_main_dex" value="루트에서 기본 dex 클래스 (classes [0-9] *. dex) [(new-line)]만 디스어셈블함. [v2.4.1 +]"/>
+	
+	<Localized name="keep_bro_res_tip" value="'Invalid Config Flags Detected(잘못된 구성 플래그 감지됨)'와 같은 오류가 있는 경우. 리소스를 삭제하는 중...'[(new-line)]이는 APK가 Apktool이 처리할 수 있는 구조와는 다르다는 것을 의미합니다.[(new-line)]최신 Android 버전 또는 표준과 일치하지 않는 임의 APK일 수 있습니다.[(new-line)]이를 실행하면 디코드가 허용되지만, 폴더에 -ERR이 포함된 폴더를 수동으로 수정해야 합니다."/>
+	<Localized name="set_apk_debug_lbl" value="디버그 가능한 APK 설정"/>
+	<Localized name="set_apk_debug_tip" value="AndroidManifest 파일에 debuggable = ''true ''를 추가합니다. [(new-line)] SmaliDebugging은 2.0.3에서 지원 중단 된 것으로 표시되고 2.1에서 제거되었습니다. [(new-line)] 디버거 용 SmaliIdea를 확인하세요."/>
+	<Localized name="dis_cru_res_lbl" value="빌드 단계 동안 리소스 파일의 크런칭을 비활성화.[(new-line)] [v2.4.0 +]"/>
+	<Localized name="use_aapt2_lbl" value="appt 대신 aapt2 바이너리 사용 [v2.3.2 +]"/>
+	<Localized name="use_aapt_path" value="지정된 위치에서 app 사용:"/>
+
+	<!-- Signer child tab -->
+	<Localized name="signer" value="서명자"/>
+	<Localized name="ins_apk_sign_lbl" value="서명 후 APK 설치"/>
+	<Localized name="over_apk_lbl" value="APK 덮어쓰기(드래그 앤 드롭)"/>
+	<Localized name="use_key_lbl" value="키 저장소를 사용하여 서명."/>
+	<Localized name="key_pw_lbl" value="암호"/>
+	<Localized name="rem_key_pw_lbl" value="암호 기억"/>
+	<Localized name="pri_keys_lbl" value="개인 키 및 인증서:"/>
+	<Localized name="pk8_lbl" value=".pk8 파일:"/>
+	<Localized name="pem_lbl" value=".pem 파일:"/>
+	<Localized name="sign_apk_after_com_chk" value="컴파일 후 APK 서명"/>
+	<!-- More info about signing https://developer.android.com/studio/command-line/apksigner#options-sign-general -->
+	<Localized name="signing_note" value="기본적으로 apksigner.jar는 최소 sdk 버전과 최대 sdk 버전의 값을 사용하여 [(new-line)] 서명 스키마를 적용할 시기를 결정합니다."/>
+	<Localized name="v2_signing_enabled_lbl" value="v2 서명이 사용되도록 설정됨"/>
+	<Localized name="v3_signing_enabled_lbl" value="v3 서명이 사용되도록 설정됨"/>
+	<Localized name="v4_signing_enabled_lbl" value="v4 서명이 사용되도록 설정됨"/>
+	<Localized name="default_str" value="기본값"/>
+	<Localized name="false_str" value="False"/>
+	<Localized name="true_str" value="True"/>
+	<Localized name="only_str" value="Only"/>
+	
+	<!-- Zipalign child tab -->
+	<Localized name="page_align_lbl" value="저장된 공유 개체 파일 페이지 정렬"/>
+	<Localized name="verbose_lbl" value="자세한 정보 출력"/>
+	<Localized name="zip_after_com_lbl" value="컴파일 후 ZipAlign"/>
+	<Localized name="over_exist_zip_lbl" value="기존 outfile.zip 덮어 쓰기"/>
+	<Localized name="recom_zopfil_lbl" value="Zopfli를 사용하여 다시 압축"/>
+	
+	<!-- In code -->
+	<Localized name="sel_dec_dir_diag" value="디컴파일된 apk를 저장할 폴더를 선택하십시오"/>
+	<Localized name="sel_com_dir_diag" value="컴파일된 apk를 저장할 폴더를 선택하십시오"/>
+	<Localized name="sel_ext_dir_diag" value="추출된 apk를 저장할 폴더를 선택하십시오"/>
+	<Localized name="sel_zip_dir_diag" value="압축된 apk를 저장할 폴더를 선택하십시오"/>
+	<Localized name="sel_pk8_file_diag" value=".pk8 키 파일 선택"/>
+	<Localized name="sel_pem_file_diag" value=".pem 키 파일 선택"/>
+	<Localized name="sel_key_file_diag" value=".jks 또는 .keystore 키 파일을 선택하십시오"/>
+	<Localized name="sel_aapt_file_diag" value="실행 가능한 aapt 파일 선택"/>
+	<Localized name="sel_all_dir_diag" value="작업할 폴더를 설정할 폴더를 선택하십시오"/>
+	<Localized name="his_clear_mbox" value="기록이 삭제되었습니다"/>
+	<Localized name="sel_java_diag" value="java.exe 파일 선택"/>
+	<Localized name="res_diag" value="기본값으로 초기화하시겠습니까?"/>
+	
+	<!-- ================== -->
+	<!-- About tab -->
+	<!-- ================== -->
+	<Localized name="about_tab" value="정보"/>
+	<Localized name="software_lbl" value="소프트웨어 버전:"/>
+	<Localized name="credits_lbl" value="제작진:"/>
+	<Localized name="softpedia_lbl" value="Softpedia에서 수여하는 100% CLEAN 상"/>
+	<Localized name="softpedia_link_lbl" value="Softpedia에서 더보기"/>
+	<Localized name="contact_lbl" value="연락처"/>
+	<Localized name="email_lbl" value="이메일:"/>
+	<Localized name="disclaimer_lbl" value="법적 고지"/>
+	<Localized name="disnote_lbl" value="apktool과 마찬가지로 APK Easy Tool은 불법 복제 및 기타 비합법적 용도로 사용할 수 없습니다. [(new-line)]지역화, 일부 기능 추가 또는 사용자 지정 플랫폼 지원, [(new-line)]앱 분석등에 사용할 수 있습니다."/>
+	
+	<!-- ================== -->
+	<!-- APK Infomation form -->
+	<!-- ================== -->
+	<Localized name="apk_info_title" value="APK 정보"/>
+	<Localized name="save_as_btn" value="다른 이름으로 정리..."/>
+	<Localized name="save_file_filter" value="텍스트 파일"/>
+	
+	<!-- ================== -->
+	<!-- Keystore password form -->
+	<!-- ================== -->
+	<Localized name="keypass_title" value="키 저장소 암호"/>
+	<Localized name="input_keypass_lbl" value="키 저장소 암호 입력:"/>
+	
+	<!-- ================== -->
+	<!-- Update form -->
+	<!-- ================== -->
+	<Localized name="update_title" value="업데이트"/>
+	<Localized name="update_lbl" value="새 버전을 사용할 수 있습니다:"/>
+	<Localized name="update_error" value="서버에 연결할 수 없습니다"/>
+	<Localized name="update_svr_ver" value="최신 버전:"/>
+	<Localized name="update_cli_ver" value="사용자 버전:"/>
+	<Localized name="visit_xda_link" value="XDA 포럼 방문"/>
+	<Localized name="changelog_lbl" value="변경 로그"/>
+	<Localized name="down_lbl" value="다운로드"/>
+	<Localized name="down_note_lbl" value="파일은 보안 Bitbucket 서버에 저장됩니다"/>
+	<Localized name="ready_stat_lbl" value="준비됨."/>
+	<Localized name="close_btn" value="닫기"/>
+	<Localized name="downloading_lbl" value="다운로드 중..."/>
+	<Localized name="down_ok_lbl" value="다운로드됨."/>
+	
+	<!-- ================== -->
+	<!-- Other -->
+	<!-- ================== -->
+	<!-- Jump list -->
+	<Localized name="open_dec_apk_dir" value="디컴파일된 APK 폴더 열기"/>
+	<Localized name="open_com_apk_dir" value="컴파일된 APK 폴더 열기"/>
+	<Localized name="open_ext_apk_dir" value="추출된 APK 폴더 열기"/>
+	<Localized name="open_zip_apk_dir" value="압축된 APK 폴더 열기"/>
+	<Localized name="open_baksmali_apk_dir" value="baksmali 폴더 열기"/>
+	<Localized name="open_smali_apk_dir" value="smali 폴더 열기"/>
+	
+	<!-- CMD execution -->
+	<Localized name="dec_apk_file_notice" value="APK 파일 디컴파일 중..."/>
+	<Localized name="dec_jar_file_notice" value="JAR 파일 디컴파일 중..."/>
+	<Localized name="dec_success_mbox" value="디컴파일 성공"/>
+	<Localized name="dec_fail_mbox" value="디컴파일에 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="com_apk_file_notice" value="APK 파일 컴파일 중..."/>
+	<Localized name="com_jar_file_notice" value="JAR 파일 컴파일 중..."/>
+	<Localized name="com_success_mbox" value="컴파일 성공"/>
+	<Localized name="com_fail_mbox" value="컴파일 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="key_not_sel_mbox" value="키 저장소 파일이 선택되지 않았습니다"/>
+	<Localized name="sign_apk_file_notice" value="APK 파일에 서명하는 중..."/>
+	<Localized name="sign_success_mbox" value="서명 성공"/>
+	<Localized name="sign_fail_mbox" value="서명 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="ins_apk_file_log" value="장치에 APK를 설치하는 중..."/>
+	<Localized name="ins_apk_file_notice" value="장치에 APK를 설치하는 중..."/>
+	<Localized name="ins_success_mbox" value="APK 설치 성공"/>
+	<Localized name="ins_fail_mbox" value="APK 설치 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="cant_zipalign_mbox" value="APK 파일을 zipalign할 수 없습니다. 파일 이름을 바꾸거나 삭제하고 다시 시도하십시오."/>
+	<Localized name="zipalign_apk_file_notice" value="Zipalign 중..."/>
+	<Localized name="zipalign_success_mbox" value="Zipalign 성공"/>
+	<Localized name="zipalign_fail_mbox" value="Zipalign 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="veri_apk_file_log" value="정렬 확인"/>
+	<Localized name="zipalign_output_dis_log" value="Zipalign 자세한 정보 출력이 비활성화됨"/>
+	<Localized name="veri_apk_file_notice" value="정렬 확인 중..."/>
+	<Localized name="veri_success_mbox" value="확인 성공"/>
+	<Localized name="veri_fail_mbox" value="확인 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="fw_apk_file_log" value="Framework 설치 중..."/>
+	<Localized name="fw_success_mbox" value="Framework 설치 설공"/>
+	<Localized name="fw_fail_mbox" value="Framework 설치 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="fw_clr_apk_file_log" value="Framework 캐시 삭제 중..."/>
+	<Localized name="fw_clr_success_mbox" value="Framework 캐시 삭제됨"/>
+	<Localized name="fw_clr_fail_mbox" value="Framework 캐시 삭제 실패"/>
+
+	<Localized name="ext_apk_file_log" value="APK 파일 추출 중..."/>
+	<Localized name="ext_success_mbox" value="APK 파일 추출 성공"/>
+	<Localized name="ext_fail_mbox" value="APK 파일 추출 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="zip_apk_file_log" value="APK 파일로 다시 압축하는 중..."/>
+	<Localized name="zip_success_mbox" value="압축 성공"/>
+	<Localized name="zip_fail_mbox" value="압축 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="baksmali_file_log" value="Baksmaling..."/>
+	<Localized name="baksmali_success_mbox" value="Baksmaling 성공"/>
+	<Localized name="baksmali_fail_mbox" value="Baksmaling 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="smali_file_log" value="APK 파일로 다시 Smaling..."/>
+	<Localized name="smali_success_mbox" value="Smali 성공"/>
+	<Localized name="smali_fail_mbox" value="Smaling 실패. 로그를 읽으십시오"/>
+	
+	<Localized name="cancelled_log" value="취소됨"/>
+</Language>
